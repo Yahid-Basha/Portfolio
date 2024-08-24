@@ -30,6 +30,11 @@
 //--//-->   ABOUT
 ======================================*/
 
+body{
+	body::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+}
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -114,7 +119,7 @@
 
 
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <body data-spy="scroll" data-target=".site-navbar-target" style="overflow-x: hidden;" data-offset="300">
 	  
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
@@ -138,7 +143,7 @@
 	  <section id="home-section" class="hero"  style="margin-top: 50px;  height: 100vh; ">
 		  <div class="home-slider  owl-carousel">
 	       <div class="slider-item " style="height: 100vh;">
-	      	<div class="overlay" ></div>
+	      	<div class="overlay" style="width: 100%;" ></div>
 	         <div class="container" style="height: 100vh;">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
 	          	<div class="one-third order-md-last img" style="background-image:url(images/bg_1.png); height: 95vh; background-size: cover; width: 99%; margin-left: 6px;">
@@ -364,35 +369,34 @@
 		</div>
 		<br>
 		
-			<div class="row">
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2021-2025</span>
-    					<h2>Bachelor of Technology</h2>
-    					<span class="position">VR Siddharths College of Engineering</span>
-    					<p class="mt-4">Grade: <b>8.94 CG</b>, First class distinction.</p>
-    				</div>
-    			</div>
-
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2018-2020</span>
-    					<h2>Higher Secondary School</h2>
-    					<span class="position">Narayana Junior College</span>
-    					<p class="mt-4">Grade: <b>94.3%</b>, First class distinction.</p>
-    				</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2021-2025</span>
+						<h2>Bachelor of Technology</h2>
+						<span class="position">VR Siddharths College of Engineering</span>
+						<p class="mt-4">Grade: <b>8.94 CG</b>, First class distinction.</p>
+					</div>
 				</div>
 
 				<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2018</span>
-    					<h2>X class</h2>
-    					<span class="position">Narayana Junior College</span>
-    					<p class="mt-4">Grade: <b>9.8 CG</b>, First class distinction.</p>
-    				</div>
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2018-2020</span>
+						<h2>Higher Secondary School</h2>
+						<span class="position">Narayana Junior College</span>
+						<p class="mt-4">Grade: <b>94.3%</b>, First class distinction.</p>
+					</div>
 				</div>
 
-    		</div>
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2018</span>
+						<h2>X class</h2>
+						<span class="position">Narayana Junior College</span>
+						<p class="mt-4">Grade: <b>9.8 CG</b>, First class distinction.</p>
+					</div>
+				</div>
+			</div>
 
     		<div class="row justify-content-center mt-5">
     			<div class="col-md-6 text-center ftco-animate">
